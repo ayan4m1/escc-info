@@ -1,0 +1,5 @@
+{
+  "*.js": "eslint",
+  "*.scss": "stylelint",
+  "*.md": "markdownlint"
+}

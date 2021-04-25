@@ -1,0 +1,12 @@
+.escc-header {
+  background: linear-gradient(#328bff, #000 115%);
+  margin-bottom: 40px;
+
+  .btn.btn-secondary {
+    color: $link-color;
+  }
+
+  .navbar-nav .nav-link, .dropdown-toggle.nav-link {
+    color: $link-color;
+  }
+}
