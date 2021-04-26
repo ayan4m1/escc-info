@@ -16,7 +16,7 @@ const MarkdownPage = ({ data }) => {
   const {
     mdx: {
       body,
-      frontmatter: { author, title, description }
+      frontmatter: { title, description }
     }
   } = data;
 
@@ -26,22 +26,8 @@ const MarkdownPage = ({ data }) => {
       <Container>
         <Row>
           {title && (
-            <Col md="6">
+            <Col md="12">
               <h1>{title}</h1>
-            </Col>
-          )}
-          {author && (
-            <Col md="6" className="text-right">
-              <h3 className="mt-0 mb-4">
-                by{' '}
-                <a
-                  href={`https://reddit.com/user/${author}`}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  /u/{author}
-                </a>
-              </h3>
             </Col>
           )}
           <Col md="12">
@@ -74,7 +60,6 @@ export const pageQuery = graphql`
     mdx(frontmatter: { path: { eq: $path } }) {
       body
       frontmatter {
-        author
         title
         description
       }
