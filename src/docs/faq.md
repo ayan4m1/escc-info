@@ -2,13 +2,14 @@
 path: '/faq'
 slug: 'faq'
 title: 'ESCC FAQ'
-author: 'TeslaDelMar'
 description: 'Frequently Asked Questions about the ESCC'
 ---
 
 #### Q: What is the ESCC?
 
 The ESCC is a silicon carbide crucible for THC vaping. It is designed to work exclusively with the AVS Molecule 22 (M22) atomizer.
+
+![escc](../images/escc.png)
 
 #### Q: What do the numbers written on my ESCC package mean?
 
