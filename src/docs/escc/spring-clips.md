@@ -13,6 +13,8 @@ Spring clips have two "narrow" sides and two "wide" sides.
 
 The wide sides of the clip should be perpendicular to the AVS logo on the M22. The narrow sides of the clip should be parallel to it.
 
+![spring clip install orientation](../../images/spring-clips-orientation.jpg)
+
 ## Official Method
 
  1. Grab a clip with ceramic tweezers. Orient it the correct way and position it over the M22.
