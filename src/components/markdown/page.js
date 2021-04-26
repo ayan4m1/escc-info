@@ -26,13 +26,13 @@ const MarkdownPage = ({ data }) => {
       <Container>
         <Row>
           {title && (
-            <Col md="12">
+            <Col md="6">
               <h1>{title}</h1>
             </Col>
           )}
           {author && (
-            <Col md="12">
-              <h2 className="mt-0 mb-4">
+            <Col md="6" className="text-right">
+              <h3 className="mt-0 mb-4">
                 by{' '}
                 <a
                   href={`https://reddit.com/user/${author}`}
@@ -41,7 +41,7 @@ const MarkdownPage = ({ data }) => {
                 >
                   /u/{author}
                 </a>
-              </h2>
+              </h3>
             </Col>
           )}
           <Col md="12">
